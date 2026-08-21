@@ -26,6 +26,7 @@ print(a,b)
 a = input().split()
 print(a, type(a))
 
+<<<<<<< HEAD
 # map(정수, 리스트)
 a = map(int,input().split())
 print(a, type())
@@ -34,3 +35,12 @@ print(a, type())
 a = list(map(int, input().split()))
 print(a, type(a))
 
+=======
+# map(함수, 리스트)
+a, b, c = map(int, input().split())
+print(a, b, c, type(a))
+
+# 리스트 변환
+a = list(map(int, input().split()))
+print(a, type(a))
+>>>>>>> 2e25a99b4a6c146af698fccb64c22cace0a6df14
