@@ -48,7 +48,7 @@ print(f"{0.1:.20f}")
 print(f"{0.2:.20f}")
 print(f"{0.3:.20f}")
 
-# 형변환
+# 형변환  
 print(float(100))
 print(int(3.14))
 print(float("3.14"))
